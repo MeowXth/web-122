@@ -1,0 +1,39 @@
+
+body {
+    background-color: aqua;
+    text-align: center; 
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    color: darkblue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
+
