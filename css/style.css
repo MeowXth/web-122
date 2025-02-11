@@ -13,6 +13,13 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2{
+    color:yellow;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 36;
+}
+
 
 img {
     display: block;
