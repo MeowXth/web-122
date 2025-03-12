@@ -1,0 +1,121 @@
+.padre {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 8px;
+    padding: 8px; 
+}
+
+.padre > div {
+    border: 1px solid #d9ed92; 
+    padding: 10px; 
+    text-align: center; 
+}
+.div1 {
+    grid-column: span 11 / span 11;
+    background-color: #b5e48c;
+}
+
+.div2 {
+    grid-column: span 11 / span 11;
+    grid-row-start: 2;
+    background-color: #99d98c;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+    background-color: #76c893;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: #52b69a;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    background-color: #34a0a4;
+}
+
+.div7 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 5;
+    background-color: #168aad;
+}
+
+.div8 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+    grid-row-start: 3;
+    background-color: #1a759f
+}
+
+.div9 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 8;
+    grid-row-start: 3;
+    background-color: #1e6091;
+}
+
+.div10 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 10;
+    grid-row-start: 3;
+    background-color: #03045e;
+}
+
+.div11 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 10;
+    grid-row-start: 4;
+    background-color: #023e8a;
+}
+
+.div12 {
+    grid-column-start: 11;
+    grid-row-start: 4;
+    background-color: #0077b6;
+}
+
+.div13 {
+    grid-column-start: 11;
+    grid-row-start: 5;
+    background-color: #0096c7;
+}
+
+.div14 {
+    grid-column-start: 11;
+    grid-row-start: 6;
+    background-color: #00b4d8;
+}
+
+.div15 {
+    grid-column: span 6 / span 6;
+    grid-row-start: 7;
+    background-color: #48cae4;
+}
+
+.div16 {
+    grid-column: span 5 / span 5;
+    grid-column-start: 7;
+    grid-row-start: 7;
+    background-color: #90e0ef;
+}
+
+.div17 {
+    grid-column: span 11 / span 11;
+    grid-row-start: 8;
+    background-color: #ade8f4;
+}
