@@ -1,0 +1,35 @@
+.contenedor {
+    background-color: #b5e2fa;
+    display: grid;
+    grid-template-areas: 
+        "cabeza"
+        "titulo"
+        "aside1"
+
+        "pie";
+
+    grid-gap: 5px;
+}
+
+.cabeza {
+    background-color: #e3d5ca;
+    grid-area: cabeza;
+}
+.titulo{
+    background-color: #b5e2fa;
+    grid-area: titulo;
+    
+}
+.aside1 {
+    background-color: #b5e2fa;
+    display: flex; 
+    display: inline-block;
+    margin: 5px;
+    grid-area: aside1;
+    
+}
+
+.pie {
+    background-color: #edede9;
+    grid-area: pie;
+}
