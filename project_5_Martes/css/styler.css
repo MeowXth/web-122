@@ -1,0 +1,49 @@
+.contenedor {
+    background-color: #b5e2fa;
+    display: grid;
+    grid-template-areas: 
+        "cabeza"
+        "titulo"
+        "aside1"
+        "aside2"
+        "aside3"
+        "pie";
+
+    grid-gap: 5px;
+}
+
+.cabeza {
+    background-color: #e3d5ca;
+    grid-area: cabeza;
+}
+.titulo{
+    background-color: #b5e2fa;
+    grid-area: titulo;
+    
+}
+.aside1, .aside2, .aside3 {
+    background-color: #b5e2fa;
+    display: flex; 
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+.aside1 {
+
+    grid-area: aside1;
+}
+
+.aside2 {
+    grid-area: aside2;
+}
+
+.aside3 {
+    grid-area: aside3;
+}
+
+
+.pie {
+    background-color: #edede9;
+    grid-area: pie;
+}
